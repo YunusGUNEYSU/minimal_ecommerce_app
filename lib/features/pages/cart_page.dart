@@ -93,7 +93,7 @@ class CartPage extends StatelessWidget {
                           decoration: BoxDecoration(
                               color: Theme.of(context).colorScheme.secondary,
                               borderRadius: AppBorder.circular()),
-                          child: const Icon(Icons.favorite)),
+                          child: Image.asset(cartItem.image)),
                       title: Text(cartItem.name),
                       subtitle: Text('\$${cartItem.price.toStringAsFixed(2)}'),
                       trailing: IconButton.filled(
@@ -111,7 +111,11 @@ class CartPage extends StatelessWidget {
               showPayDialog(context);
             },
             width: size.width * 0.8,
-            child: const Center(child: Text('PAY NOW')),
+            child: Center(
+                child: Text(
+              'PAY NOW',
+              style: GoogleFonts.lato(textStyle: Theme.of(context).textTheme.bodyLarge),
+            )),
           )),
           const SizedBox(
             height: 20,
