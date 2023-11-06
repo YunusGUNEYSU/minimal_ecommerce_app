@@ -3,4 +3,5 @@
    
                                                                                               
 
-![Screenshot_1699289341](https://github.com/YunusGUNEYSU/minimal_ecommerce_app/assets/39588697/b66c0be7-8207-43e7-817b-b4793972d742)
+
+![Screenshot_1699289341](https://github.com/YunusGUNEYSU/minimal_ecommerce_app/assets/39588697/b4661cc7-5df9-4127-87a7-05c0e49fe63d)
